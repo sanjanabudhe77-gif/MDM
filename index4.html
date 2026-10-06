@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reusable UI Components - Tailwind CSS</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-violet-400 via-Blue-300 to-cyan-200 min-h-screen">
+
+  <!-- ================= NAVBAR ================= -->
+
+  <nav class="bg-blue-600 text-white p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Sanjana (CD25045)</h1>
+
+      <div class="space-x-6">
+        <a href="#" class="hover:text-yellow-300">Home</a>
+        <a href="#" class="hover:text-yellow-300">Services</a>
+        <a href="#" class="hover:text-yellow-300">Gallery</a>
+        <a href="#" class="hover:text-yellow-300">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= HEADING ================= -->
+
+  <section class="text-center py-8">
+    <h2 class="text-3xl font-bold">Paintings</h2>
+    <p class="text-green-1000">
+      A visual art form where artists apply pigments and colors to flat surfaces like canvas, paper, or walls using brushes, knives, or sponges.
+    </p>
+  </section>
+
+  <!-- ================= CARD SECTION ================= -->
+
+  <section class="max-w-6xl mx-auto px-5">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Card 1 -->
+
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+
+        <img
+          src="abstractp.jpg"
+          alt="Abstract Painting"
+          class="w-full h-48 object-cover"
+        >
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-bold mb-2">
+            Abstract Painting
+          </h3>
+          
+          <p class="text-gray-600 mb-4">
+            Abstract: is a style of art that uses colors, shapes, and brush marks to show feelings instead of real-life objects
+          </p>
+
+          <button class="bg-gradient-to-r from-purple-600 via-blue-500 to-green-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:from-purple-700 hover:via-pink-600 hover:to-rose-600 hover:scale-105 hover:animate-pulse hover:shadow-2xl transition-all duration-1000">
+            Add to cart
+          </button>
+
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+
+        <img
+          src="cubism.jpg"
+          alt="Cubism Painting"
+          class="w-full h-48 object-cover"
+        >
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-bold mb-2">
+            Cubism Painting
+          </h3>
+
+          <p class="text-gray-600 mb-4">
+            Cubism: break subjects down into geometric cubes, shapes, and multiple overlapping perspectives at the same time.
+          </p>
+
+          <button class="bg-gradient-to-r from-purple-600 via-blue-500 to-green-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:from-purple-700 hover:via-pink-600 hover:to-rose-600 hover:scale-105 hover:animate-pulse hover:shadow-2xl transition-all duration-1000">
+            Add to cart
+          </button>
+
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+
+        <img
+          src="famous expressing p.jpg"
+          alt="Expressionism Painting"
+          class="w-full h-48 object-cover"
+        >
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-bold mb-2">
+            Expressionism Painting
+          </h3>
+
+          <p class="text-gray-600 mb-4">
+            Expressionism: Distorts colors and shapes to show raw human feelings over clean accuracy.
+          </p>
+
+          <button class="bg-gradient-to-r from-purple-600 via-blue-500 to-green-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:from-purple-700 hover:via-pink-600 hover:to-rose-600 hover:scale-105 hover:animate-pulse hover:shadow-2xl transition-all duration-1000">
+            Add to cart
+          </button>
+
+        </div>
+      </div>
+      <!---card 4--->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+
+        <img
+          src="surrealism.jpg"
+          alt="Surrealism Painting"
+          class="w-full h-48 object-cover"
+        >
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-bold mb-2">
+            Surrealism Painting
+          </h3>
+
+          <p class="text-gray-600 mb-4">
+            Surrealism: Mixes dream worlds and bizarre logic into weird, lifelike scenes.
+          </p>
+
+          <button class="bg-gradient-to-r from-purple-600 via-blue-500 to-green-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:from-purple-700 hover:via-pink-600 hover:to-rose-600 hover:scale-105 hover:animate-pulse hover:shadow-2xl transition-all duration-1000">
+            Add to cart
+          </button>
+
+        </div>
+      </div>
+<!---card 5--->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+
+        <img
+          src="pop art.webp"
+          alt="Pop Art Painting"
+          class="w-full h-48 object-cover"
+        >
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-bold mb-2">
+           Pop Art Painting
+          </h3>
+
+          <p class="text-gray-600 mb-4">
+           Pop Art: Uses famous faces, consumer goods, and bright commercial print.
+          </p>
+
+          <button class="bg-gradient-to-r from-purple-600 via-blue-500 to-green-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:from-purple-700 hover:via-pink-600 hover:to-rose-600 hover:scale-105 hover:animate-pulse hover:shadow-2xl transition-all duration-1000">
+            Add to cart
+          </button>
+
+        </div>
+      </div>
+<!---card 6--->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+
+        <img
+          src="impressionism.jpg"
+          alt=" Impressionism Painting"
+          class="w-full h-48 object-cover"
+        >
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-bold mb-2">
+           Impressionism Painting
+          </h3>
+
+          <p class="text-gray-600 mb-4">
+           Impressionism: Uses short brush strokes and bright light to show a fleeting moment.
+          </p>
+
+          <button class="bg-gradient-to-r from-purple-600 via-blue-500 to-green-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:from-purple-700 hover:via-pink-600 hover:to-rose-600 hover:scale-105 hover:animate-pulse hover:shadow-2xl transition-all duration-1000">
+            Add to cart
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+ <!-- ================= FOOTER ================= -->
+
+<footer class="mt-10 bg-gradient-to-r from-gray-900 via-slate-800 to-black text-white">
+
+  <div class="max-w-6xl mx-auto py-8 text-center">
+
+    <h2 class="text-2xl font-bold">
+      Sanjana Budhe
+    </h2>
+
+    <p class="mt-2 text-gray-300">
+      Own a piece of this vibrant journey and let the color inspire you every day.
+    </p>
+
+    <p class="mt-4 text-gray-400">
+      © 2026 All Rights Reserved
+    </p>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
